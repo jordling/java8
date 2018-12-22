@@ -19,15 +19,16 @@ public class PersonListExampleJava8 {
 		// changes
 
 		// for printing all use printConditionally also
-
+		
+        
 		printConditionally(personList, p -> true);
 		
 		
 		// to improve above method use another method
 
-		printConditionally(personList, p -> p.getLastName().startsWith("E"));
+		//printConditionally(personList, p -> p.getLastName().startsWith("E"));
 
-		printConditionally(personList, p -> p.getFirstName().startsWith("N"));
+		//printConditionally(personList, p -> p.getFirstName().startsWith("N"));
 
 	
 	}
